@@ -1,0 +1,37 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 6rem;
+  width: 100%;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.header-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-container p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.setting {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,17 @@
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+  }
+}

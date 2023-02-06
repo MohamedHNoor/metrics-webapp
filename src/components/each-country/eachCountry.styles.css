@@ -1,0 +1,32 @@
+.each-country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.each-country:hover {
+  transform: scale(1.05);
+}
+
+.country-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.country-time {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.flag-image {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

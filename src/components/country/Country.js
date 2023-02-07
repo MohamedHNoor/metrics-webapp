@@ -21,7 +21,7 @@ const CountriesDetalis = () => {
         <div className="country-list">
           <h2>{country[index].name}</h2>
         </div>
-        <img src={country[index].image} alt="flag" />
+        <img src={country[index].image} alt="flag" className="flag-image" />
         <div className="item">
           <p>Capital:</p>
           <p>{country[index].capital}</p>

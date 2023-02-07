@@ -2,14 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 70vh;
   gap: 1rem;
-  margin: 5rem auto;
+  border-radius: 1rem;
 }
 
 .row li {
   list-style: none;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 

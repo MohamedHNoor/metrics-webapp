@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, shallowEqual, useDispatch } from 'react-redux';
 import { fetchCountry, searchCountry } from '../../redux/countries';
 import AllCountries from '../all-countries/AllCounries';
+import africa from '../../assets/Africa.svg';
 import './home.styles.css';
 
 let render = true;
+
 const Home = () => {
   const country = useSelector((state) => state.countries, shallowEqual);
   const dispatch = useDispatch();
@@ -30,10 +32,12 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="search-box">
-        <img src="" alt="africa map" className="map-photo" />
-        <div>
-          <h3 className="africa-title">Africa</h3>
-          <p className="africa-population">1.216 billion</p>
+        <div className="continent-info">
+          <img src={africa} alt="africa map" className="africa-map" />
+          <div>
+            <h3 className="africa-title">Africa</h3>
+            <p className="africa-population">1216 billion People</p>
+          </div>
         </div>
         <input
           value={searchField}

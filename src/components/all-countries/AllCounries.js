@@ -23,7 +23,8 @@ const AllCountry = ({ data }) => (
 );
 
 AllCountry.propTypes = {
-  data: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default AllCountry;

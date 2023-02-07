@@ -5,7 +5,9 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 import './eachCountry.styles.css';
 
 const eachCountry = (props) => {
-  const { id, name, image, timezone } = props;
+  const {
+    id, name, image, timezone,
+  } = props;
   return (
     <div className="each-country">
       <NavLink to={`/country/${id}`} key={id}>

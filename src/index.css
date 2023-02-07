@@ -6,6 +6,8 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,6 +16,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(236, 76, 138);
   color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  overflow-x: hidden;
 }
 
 a {
@@ -21,6 +26,7 @@ a {
   color: #fff;
 }
 
-.color {
-  color: #ec4c8a;
+img {
+  width: 100%;
+  height: auto;
 }

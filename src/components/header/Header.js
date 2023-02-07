@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { LeftOutlined, SettingOutlined } from '@ant-design/icons';
+import { FaMicrophone } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 import './header.css';
@@ -9,18 +10,18 @@ import './header.css';
 const Header = (props) => {
   const { children } = props;
   return (
-    <div className="header-container">
-      <NavLink to="/">
+    <header className="header-container">
+      <NavLink to="/" className="left-nav">
         <div>
-          <LeftOutlined />
+          <LeftOutlined className="arrow" />
         </div>
       </NavLink>
       <h2>{children}</h2>
-      <div className="right-container">
-        <p>Micorphone</p>
+      <div className="right-nav">
+        <FaMicrophone className="mic" />
         <SettingOutlined className="setting" />
       </div>
-    </div>
+    </header>
   );
 };
 

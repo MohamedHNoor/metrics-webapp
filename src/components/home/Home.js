@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect, useState } from 'react';
 import { useSelector, shallowEqual, useDispatch } from 'react-redux';
 import { fetchCountry, searchCountry } from '../../redux/countries';

@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { AiOutlineArrowRight } from 'react-icons/ai';

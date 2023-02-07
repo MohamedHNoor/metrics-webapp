@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
+import PropTypes from 'prop-types';
 import EachCountry from '../each-country/EachCountry';
 import './all-countries.styles.css';
 
@@ -22,5 +21,9 @@ const AllCountry = ({ data }) => (
     ))}
   </div>
 );
+
+AllCountry.propTypes = {
+  data: PropTypes.string.isRequired,
+};
 
 export default AllCountry;

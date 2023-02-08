@@ -89,6 +89,7 @@ The home page displays a list of countries that could be filtered by country nam
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://metric-webapp.onrender.com/)
+- [Loom](https://www.loom.com/share/e8cdb642ce804ea7b7c535f7bbc55024)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

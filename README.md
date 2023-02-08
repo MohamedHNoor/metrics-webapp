@@ -30,7 +30,8 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[your_project_name\] ](#-your_project_name-)
+- [📖 \[Metric WebApp\] ](#-metric-webapp-)
+  - [Screenshots](#screenshots)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -51,11 +52,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Metric WebApp] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[Metric WebApp]** is a mobile web application that allows users to view a list of African countries and. The wepapp has two pages: the home page and the details page.
+The home page displays a list of countries that could be filtered by country name. When the user clicks (or taps) on a country, the application navigates to the details page.
 
-**[your_project__name]** is a...
+## Screenshots
+
+![](./src/assets/screenshot-1.JPG) ![](./src/assets/screenshot-2.JPG)
+![](./src/assets/screenshot-3.JPG)
 
 ## 🛠 Built With <a name="built-with"></a>
 

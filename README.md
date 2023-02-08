@@ -54,7 +54,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Metric WebApp] <a name="about-project"></a>
 
-**[Metric WebApp]** is a mobile web application that allows users to view a list of African countries and. The wepapp has two pages: the home page and the details page.
+**[Metric WebApp]** is a mobile web application that allows users to view a list of African countries. The wepapp has two pages: the home page and the details page.
 The home page displays a list of countries that could be filtered by country name. When the user clicks (or taps) on a country, the application navigates to the details page.
 
 ## Screenshots
@@ -88,7 +88,7 @@ The home page displays a list of countries that could be filtered by country nam
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://metric-webapp.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

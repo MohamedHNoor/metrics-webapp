@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 6rem;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.arrow,
+.mic,
+.setting {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

@@ -1,0 +1,40 @@
+.each-country {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+  gap: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.list,
+.country-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.list h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.righ-arrow {
+  font-size: 2rem;
+}
+
+.list p {
+  font-size: 2rem;
+}
+
+.flag-image {
+  height: 50%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.country-details {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the homepage components correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home-container"
+      >
+        <div
+          class="search-box"
+        >
+          <div
+            class="continent-info"
+          >
+            <img
+              alt="africa map"
+              class="africa-map"
+              src="Africa.svg"
+            />
+            <div>
+              <h3
+                class="africa-title"
+              >
+                Africa
+              </h3>
+              <p
+                class="africa-population"
+              >
+                1216 billion People
+              </p>
+            </div>
+          </div>
+          <input
+            class="search"
+            placeholder="Search a country..."
+            type="search"
+            value=""
+          />
+        </div>
+        <div
+          class="title-div"
+        >
+          <h3
+            class="title"
+          >
+            African Countries
+          </h3>
+        </div>
+        <div
+          class="list-page"
+        >
+          <div
+            class="countries-container"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-container"
+    >
+      <div
+        class="search-box"
+      >
+        <div
+          class="continent-info"
+        >
+          <img
+            alt="africa map"
+            class="africa-map"
+            src="Africa.svg"
+          />
+          <div>
+            <h3
+              class="africa-title"
+            >
+              Africa
+            </h3>
+            <p
+              class="africa-population"
+            >
+              1216 billion People
+            </p>
+          </div>
+        </div>
+        <input
+          class="search"
+          placeholder="Search a country..."
+          type="search"
+          value=""
+        />
+      </div>
+      <div
+        class="title-div"
+      >
+        <h3
+          class="title"
+        >
+          African Countries
+        </h3>
+      </div>
+      <div
+        class="list-page"
+      >
+        <div
+          class="countries-container"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

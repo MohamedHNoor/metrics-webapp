@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { LeftOutlined, SettingOutlined } from '@ant-design/icons';
 import { FaMicrophone } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
@@ -7,6 +6,7 @@ import { NavLink } from 'react-router-dom';
 import './header.css';
 
 const Header = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { children } = props;
   return (
     <header className="header-container">
@@ -22,10 +22,6 @@ const Header = (props) => {
       </div>
     </header>
   );
-};
-
-Header.propTypes = {
-  children: PropTypes.node.isRequired,
 };
 
 export default Header;

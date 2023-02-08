@@ -1,18 +1,15 @@
-/* eslint-disable import/no-extraneous-dependencies */
-// /* eslint-disable import/no-extraneous-dependencies */
-import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
+import axiosInstance from '../utils/axiosInstance';
 
 const SHOWCOUNTRY = 'countries/SHOWCOUNTRY';
 const GETCOUNTRY = 'countries/SHOWCOUNTRY';
-const URL = 'https://restcountries.com/v3.1/region/africa';
 const SEARCHCOUNTRY = 'https://restcountries.com/v3.1/name';
 
 const initialState = [];
 
 export const searchCountry = createAsyncThunk('searchCountry', async (name) => {
   try {
-    const response = await axios.get(`${SEARCHCOUNTRY}/${name}`);
+    const response = await axiosInstance.get(`${SEARCHCOUNTRY}/${name}`);
     return [
       {
         id: response.data[0].area,
@@ -30,7 +27,7 @@ export const searchCountry = createAsyncThunk('searchCountry', async (name) => {
 });
 
 export const fetchCountry = createAsyncThunk(SHOWCOUNTRY, async () => {
-  const response = await axios.get(URL);
+  const response = await axiosInstance.get('/region/africa');
   const resultArray = response.data;
 
   return {

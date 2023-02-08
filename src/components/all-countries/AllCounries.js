@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import PropTypes from 'prop-types';
 import EachCountry from '../each-country/EachCountry';
 import './all-countries.styles.css';
 
@@ -21,10 +21,5 @@ const AllCountry = ({ data }) => (
     ))}
   </div>
 );
-
-AllCountry.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  data: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
 
 export default AllCountry;
